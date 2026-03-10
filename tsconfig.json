@@ -3,5 +3,8 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": false
-  }
+  },
+  "include": [
+    "./worker-configuration.d.ts"
+  ]
 }
