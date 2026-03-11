@@ -1,14 +1,16 @@
-import { defineConfig } from 'astro/config';
-import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
   image: {
-    remotePatterns: [{
-      protocol: 'https',
-      hostname: 'images.unsplash.com',
-    }],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
   },
 });

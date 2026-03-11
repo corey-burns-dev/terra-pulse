@@ -10,10 +10,10 @@ A full-site Astro project based on the Terra Pulse demo (278-terra-pulse). Terra
 
 ## Commands
 
-| Command    | Action           |
-| ---------- | ---------------- |
-| `bun run dev`   | Start dev server |
-| `bun run build` | Build for production |
+| Command           | Action                   |
+| ----------------- | ------------------------ |
+| `bun run dev`     | Start dev server         |
+| `bun run build`   | Build for production     |
 | `bun run preview` | Preview production build |
 
 ## Pages

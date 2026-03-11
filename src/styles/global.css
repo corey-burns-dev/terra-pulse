@@ -7,7 +7,7 @@
   --color-accent: #4ade80;
   --color-bg: #0f1410;
   --color-text: #e8f0e6;
-  --font-sans: 'Outfit', system-ui, ui-sans-serif, sans-serif;
+  --font-sans: "Outfit", system-ui, ui-sans-serif, sans-serif;
 }
 
 /* Skip link: visible when focused for a11y */
@@ -38,21 +38,37 @@
     animation: fadeIn 1s ease-out forwards;
     opacity: 0;
   }
-  .delay-100 { animation-delay: 100ms; }
-  .delay-200 { animation-delay: 200ms; }
-  .delay-300 { animation-delay: 300ms; }
-  
+  .delay-100 {
+    animation-delay: 100ms;
+  }
+  .delay-200 {
+    animation-delay: 200ms;
+  }
+  .delay-300 {
+    animation-delay: 300ms;
+  }
+
   .glass {
     @apply bg-[#0f1410]/80 backdrop-blur-md border border-[#4ade80]/10;
   }
 }
 
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
