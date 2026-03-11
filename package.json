@@ -6,6 +6,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "deploy": "npx wrangler deploy",
+    "deploy:dry-run": "npx wrangler deploy --dry-run",
     "preview": "astro preview",
     "lint": "oxlint",
     "format": "oxfmt",
